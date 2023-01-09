@@ -29,7 +29,7 @@ let nomHeros3 = prompt(" Quel est le nom du troisième Héros ? (Archer) ")
 archer.nom = nomHeros3
 
 
-// Répartition des points de compétences 
+// Répartition des points de compétences par l'utilisateur
 
 // PV
 
