@@ -25,7 +25,7 @@ export function getRandomBoss() {
     return randomBoss[i];
 }
 
-// l'énigme de Fort Boyard
+// Fonction pour les énigmes de Fort Boyard
 
 export function EnigmeFoutu() {
     const enigmes = [{
