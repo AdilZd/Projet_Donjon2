@@ -13,6 +13,8 @@ export class Characters {
     }
 }
 
+// Class Boss 
+
 export class Boss extends Characters {
     constructor(nom, pv, ad, ) {
         super(nom, pv, ad);
