@@ -31,7 +31,7 @@ archer.nom = nomHeros3
 
 // Répartition des points de compétences par l'utilisateur
 
-// PV
+// Le choix des PV 
 
 alert(" Vous avez 500 pv et 500 ad à repartir entre vos héros. ")
 let pvHero1 = prompt(" Combien le guerrier a t'il de vie ? ")
