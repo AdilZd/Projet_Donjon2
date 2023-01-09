@@ -80,7 +80,7 @@ if (postureHero3 == "attaque") {
 } else if (postureHero3 == "defense") {
     archer.Defensive()
 }
-// Attribution de la mana et des flèches 
+// Le randon / Attribution de la mana et des flèches  
 
 archer.Nmbr_Flèches = FONCTIONS.getRandomFleche();
 mage.manaPoints = FONCTIONS.getRandomManaPoint();
