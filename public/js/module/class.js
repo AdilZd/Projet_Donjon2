@@ -3,6 +3,8 @@
 import * as FONCTIONS from "../main.js"
 import * as INSTANCES from "./instance.js"
 
+// Class de tete celle qui dètermine le reste
+
 export class Characters {
     constructor(nom, pv, ad) {
         this.nom = nom;
