@@ -65,6 +65,8 @@ export class Guerrier extends Characters {
     }
 }
 
+// Class Mage
+
 export class Mage extends Characters {
     constructor(nom, pv, ad, manaPoints) {
         super(nom, pv, ad);
