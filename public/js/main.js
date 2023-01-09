@@ -16,7 +16,7 @@ let totalPVBoss = boss.pv;
 alert("Bienvenue dans le donjon de Geek Of Legends");
 
 
-// Choix du nom des héros 
+// Choix du nom des héros  par l'utilisateur
 
 alert(" Vous entendez un bruit sourd de vent , dans le fond du donjon vous appercevez une silhouette immense et ténébreuse devant cette monstruosité vous voyez 3 lueurs scintillantes. LES HEROS !")
 let nomHeros1 = prompt(" Quel est le nom du premier Héros ? (Guerrier) ")
