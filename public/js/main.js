@@ -91,6 +91,33 @@ mage.manaPoints = FONCTIONS.getRandomManaPoint();
 alert(" Les héros se battent de manière acharné contre " + boss.nom + " , un combat terrible se prolifère ...")
 
 
+while (INSTANCES.heros1.pv > 0 || INSTANCES.heros2.pv > 0 || INSTANCES.heros3.pv > 0) {
+    if (INSTANCES.heros1.pv <= 0 && INSTANCES.heros2.pv <= 0 && INSTANCES.heros3.pv <= 0) {
+        alert("Le boss est venu à bout des héros ...");
+        break;
+    }
+    if (boss.pv <= 0.2 * totalPVBoss) {
+        if (checkAnswer()) {
+            boss.pv = 0;
+            alert(`${max.nom} est mort, les héros ont gagné !`);
+            break;
+        } else {
+            guerrier.pv = 0;
+            mage.pv = 0;
+            archer.pv = 0;
+            alert("Vous avez échoué à l'énigme, les héros sont morts.");
+            break;
+        }
+    }
+    boss.attackHeros();
+    guerrier.AttaqueBoss(boss);
+    mage.AttaqueBoss(boss);
+    archer.AttaqueBoss(boss);
+    while (guerrier.pv <= 0 && mage.pv <= 0 && archer.pv <= 0)  {
+        alert ( " Le boss a terassé les héros ... Les ténébres envahissent le monde , c'est la fin.");
+        break;
+    }
+}
 
 
 

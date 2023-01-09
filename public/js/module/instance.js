@@ -7,9 +7,9 @@ import * as CLASS from "./class.js"
 
 
 
-export let Sauron = new CLASS.Boss("Sauron", 2000, 2);
-export let Chronos = new CLASS.Boss("Chronos", 1500, 4);
-export let Lilith = new CLASS.Boss("Lilith", 2200, 5);
+export let Sauron = new CLASS.Boss("Sauron", 2000, 20);
+export let Chronos = new CLASS.Boss("Chronos", 1500, 40);
+export let Lilith = new CLASS.Boss("Lilith", 2200, 55);
 
 
 // Héros
