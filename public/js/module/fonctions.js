@@ -8,7 +8,7 @@ export function getRandomManaPoint() {
     return randomNbr[i];
 }
 
-// Random Flèche de l'archer  
+// Fonction Random Flèche de l'archer  
 
 export function getRandomFleche() {
     let randomFleche = [7, 8, 9, 10, 11];
