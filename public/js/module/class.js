@@ -97,6 +97,8 @@ export class Mage extends Characters {
     }
 }
 
+// Class Archer 
+
 export class Archer extends Characters {
     constructor(nom, pv, ad, Nmbr_Flèches) {
         super(nom, pv, ad);
