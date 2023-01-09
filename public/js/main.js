@@ -11,7 +11,7 @@ let boss = FONCTIONS.getRandomBoss();
 let totalPVBoss = boss.pv;
 
 
-// L'histoire 
+// L'histoire le début
 
 alert("Bienvenue dans le donjon de Geek Of Legends");
 
