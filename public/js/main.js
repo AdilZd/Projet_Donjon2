@@ -46,7 +46,7 @@ let pvHero3 = prompt(" Combien le archer a t'il de vie? ")
 totalPVHeros -= pvHero3
 archer.pv = pvHero3
 
-// AD 
+// Le choix de l'AD 
 
 let adHero1 = prompt(" Combien le guerrier a t'il de puissance d'attaque ? ")
 totalADHeros -= adHero1
