@@ -17,7 +17,7 @@ export function getRandomFleche() {
 }
 
 
-// Boss Aléatoire 
+// Fonction pour le Boss Aléatoire 
 
 export function getRandomBoss() {
     let randomBoss = [INSTANCES.Chronos, INSTANCES.Lilith, INSTANCES.Sauron];
