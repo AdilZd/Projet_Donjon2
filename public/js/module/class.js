@@ -30,6 +30,8 @@ export class Boss extends Characters {
     }
 }
 
+// Class Guerrier 
+
 export class Guerrier extends Characters {
     constructor(nom, pv, ad, ragePoints) {
         super(nom, pv, ad);
