@@ -1,6 +1,18 @@
 import * as INSTANCES from "./module/instance.js"
 import * as FONCTIONS from "./module/fonctions.js"
-import { enigmes, reponses, reponseCorrecte, nbmr_Essais, checkAnswer } from "./module/fonctions.js";
+import {
+    enigmes,
+    reponses,
+    reponseCorrecte,
+    nbmr_Essais,
+    checkAnswer
+} from "./module/fonctions.js";
+
+
+// window.addEventListener("load", function () {
+//     document.getElementById("mySound").play();
+// });
+
 
 const guerrier = INSTANCES.heros1
 const mage = INSTANCES.heros2
@@ -81,7 +93,7 @@ if (postureHero3 == "attaque") {
 } else if (postureHero3 == "defense") {
     archer.Defensive()
 }
-// Le randon / Attribution de la mana et des flèches  
+// Le random / Attribution de la mana et des flèches  
 
 archer.Nmbr_Flèches = FONCTIONS.getRandomFleche();
 mage.manaPoints = FONCTIONS.getRandomManaPoint();
@@ -113,15 +125,8 @@ while (INSTANCES.heros1.pv > 0 || INSTANCES.heros2.pv > 0 || INSTANCES.heros3.pv
     guerrier.AttaqueBoss(boss);
     mage.AttaqueBoss(boss);
     archer.AttaqueBoss(boss);
-    while (guerrier.pv <= 0 && mage.pv <= 0 && archer.pv <= 0)  {
-        alert ( " Le boss a terassé les héros ... Les ténébres envahissent le monde , c'est la fin.");
+    while (guerrier.pv <= 0 && mage.pv <= 0 && archer.pv <= 0) {
+        alert(" Le boss a terassé les héros ... Les ténébres envahissent le monde , c'est la fin.");
         break;
     }
 }
-
-
-
-
-
-
-

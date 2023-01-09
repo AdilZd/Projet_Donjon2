@@ -28,11 +28,11 @@ export function getRandomBoss() {
 // Fonction pour les énigmes de Fort Boyard
 
 export const enigmes = [
-    "Je suis un animal domestique, j'ai quatre pattes, une queue et des moustaches. Qui suis-je ?",
-    "J'ai une tête et des pattes, mais pas de corps. Qu'est-ce que je suis ?",
-    "Je suis un animal, j'ai des griffes et je suis très agile. Qui suis-je ?",
+    " Quelle était la montagne la plus haute avant que le monde découvre l’Everest ? ",
+    "Avant de l’avoir, on ne la veut pas, mais quand on l’a, on ne veut pas la perdre. Qu’est-ce ? ?",
+    "Qu’est-ce qui peut remplir une pièce entière sans prendre de place ? ?",
 ];
-export const reponses = ["Un chat", "Un crayon", "Un cat"];
+export const reponses = ["Le mont everest", "La guerre", "La lumière"];
 
 export let reponseCorrecte = false;
 export let nbmr_Essais = 0;
