@@ -85,7 +85,7 @@ if (postureHero3 == "attaque") {
 archer.Nmbr_Flèches = FONCTIONS.getRandomFleche();
 mage.manaPoints = FONCTIONS.getRandomManaPoint();
 
-// Lé début du combat 
+// Lé début du combat / La fin du combat / Enigme
 
 alert(" Les héros se battent de manière acharné contre " + boss.nom + " , un combat terrible se prolifère ...")
 while (INSTANCES.heros1.pv > 0 || INSTANCES.heros2.pv > 0 || INSTANCES.heros3.pv > 0) {
