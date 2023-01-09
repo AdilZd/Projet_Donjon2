@@ -1,6 +1,6 @@
 import * as INSTANCES from "./instance.js"
 
-// Random le mana du Mage 
+// Fonction Random le mana du Mage 
 
 export function getRandomManaPoint() {
     let randomNbr = [7, 9, 11];
@@ -8,7 +8,7 @@ export function getRandomManaPoint() {
     return randomNbr[i];
 }
 
-// Random Flèche de l'archer 
+// Random Flèche de l'archer  
 
 export function getRandomFleche() {
     let randomFleche = [7, 8, 9, 10, 11];
