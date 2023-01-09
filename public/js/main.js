@@ -1,5 +1,6 @@
 import * as INSTANCES from "./module/instance.js"
 import * as FONCTIONS from "./module/fonctions.js"
+import { enigmes, reponses, reponseCorrecte, nbmr_Essais, checkAnswer } from "./module/fonctions.js";
 
 const guerrier = INSTANCES.heros1
 const mage = INSTANCES.heros2
@@ -88,36 +89,12 @@ mage.manaPoints = FONCTIONS.getRandomManaPoint();
 // Lé début du combat / La fin du combat / Enigme
 
 alert(" Les héros se battent de manière acharné contre " + boss.nom + " , un combat terrible se prolifère ...")
-while (INSTANCES.heros1.pv > 0 || INSTANCES.heros2.pv > 0 || INSTANCES.heros3.pv > 0) {
-    if (boss.pv <= 0) {
-        break;
-    }
-    if (boss.pv <= 0.2 * totalPVBoss) {
-        if (FONCTIONS.EnigmeFoutu()) {
-            boss.pv = 0;
-            alert(`${boss.nom} est mort, les héros ont gagnés !`);
-            break;
-        } else {
-            guerrier.pv = 0;
-            mage.pv = 0;
-            archer.pv = 0;
-            alert("Vous avez échoué à l'énigme, les héros sont morts.");
-            break;
-        }
-    }
-    boss.attackHeros();
-    guerrier.AttaqueBoss(boss);
-    mage.AttaqueBoss(boss);
-    archer.AttaqueBoss(boss);
-    if (boss.pv <= 0) {
-        alert("Le boss a été vaincu, les héros ont gagné !");
-        break;
-    }
-    if (INSTANCES.heros1.pv <= 0 && INSTANCES.heros2.pv <= 0 && INSTANCES.heros3.pv <= 0) {
-        alert("Le boss est venu à bout des héros ...");
-        break;
-    }
-}
+
+
+
+
+
+
 
 
 
