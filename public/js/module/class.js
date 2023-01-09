@@ -128,3 +128,7 @@ export class Archer extends Characters {
     }
 }
 
+export class Events {
+    constructor
+}
+

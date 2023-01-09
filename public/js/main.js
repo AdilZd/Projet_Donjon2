@@ -95,7 +95,7 @@ while (INSTANCES.heros1.pv > 0 || INSTANCES.heros2.pv > 0 || INSTANCES.heros3.pv
     if (boss.pv <= 0.2 * totalPVBoss) {
         if (FONCTIONS.EnigmeFoutu()) {
             boss.pv = 0;
-            alert(`${max.nom} est mort, les héros ont gagnés !`);
+            alert(`${boss.nom} est mort, les héros ont gagnés !`);
             break;
         } else {
             guerrier.pv = 0;
